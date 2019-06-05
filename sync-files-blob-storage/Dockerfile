@@ -12,7 +12,7 @@ npm install
 
 # Copy data for add-on
 COPY run.sh /
-COPY gulpfile.js /
+COPY homegateway.js /
 RUN chmod a+x /run.sh
 
 CMD [ "/run.sh" ]
