@@ -6,7 +6,8 @@ ENV LANG C.UTF-8
 ADD package.json /
 
 RUN apk add --no-cache nodejs-npm jq && \
-npm install gulp -g && \
+npm install mqtt -g && \
+npm install serialport -g && \
 npm install
 
 # Copy data for add-on
