@@ -15,6 +15,5 @@
     "schema": {
       "connectionString": "str",
       "watch" : "str"
-    },
-    "image": "kutd/sync-files-blob-storage-ha-{arch}"
+    }
   }
