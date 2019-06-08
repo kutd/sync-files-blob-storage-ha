@@ -7,6 +7,10 @@ ADD package.json /
 
 RUN apk add --no-cache nodejs-npm jq && \
 npm install mqtt -g && \
+npm install
+
+
+RUN apk add --no-cache nodejs-npm jq && \
 npm install serialport -g && \
 npm install
 
