@@ -8,5 +8,5 @@ WATCH="$(jq --raw-output '.watch' $CONFIG_PATH)"
 echo Hello!
 node -v
 npm -v
-gulp -v
-gulp watch-files --storageConnectionString="$CONNECTION_STRING" --watch="$WATCH"
+mqtt -v
+serialport -v
